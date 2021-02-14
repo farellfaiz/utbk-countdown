@@ -17,7 +17,7 @@
         <div class="container">
             <div class="header">
                 <h1 class="now">UTBK <span>Countdown</span></h1>
-                <h1 class="date">12<sup>TH</sup> APRIL 2021</h1>
+                <h1 class="date">12 APRIL 2021</h1>
             </div>
             <div id="timer"></div>
             <nav class="menu">
@@ -28,11 +28,11 @@
                   <span class="hamburger hamburger-3"></span>
                 </label>
 
-                <a href="#" class="menu-item"> <i class="fa fa-bar-chart"></i> </a>
-                <a href="#" class="menu-item" onclick="play()"> <i class="fa fa-volume-up"></i> </a>
+                <a href="#" class="menu-item" onclick="library()"> <i class="fa fa-university"></i> </a>
+                <a href="#" class="menu-item" onclick="rain()"> <i class="fa fa-cloud"></i> </a>
                 <a href="#" class="menu-item pomodoro"> <i class="fa fa-clock-o"></i> </a>
-                <a href="#" class="menu-item"> <i class="fa fa-envelope"></i> </a>
-                <a href="#" class="menu-item"> <i class="fa fa-cog"></i> </a>
+                <a href="#" class="menu-item learn"> <i class="fa fa-book"></i> </a>
+                <a href="#" class="menu-item info"> <i class="fa fa-info"></i> </a>
 
             </nav>
         </div>
@@ -58,7 +58,8 @@
         <li></li>
         <li></li>
     </ul>
-    <audio id="rain" src="audio/rain.m4a"></audio>
+    <audio id="library" src="audio/library.mp3" loop></audio>
+    <audio id="rain" src="audio/rain.m4a" loop></audio>
     <script src='https://cdn.jsdelivr.net/npm/sweetalert2@10'></script>
     <script src='https://cdn.jsdelivr.net/npm/promise-polyfill'></script>
     <script src='sweetalert2.min.js'></script>
