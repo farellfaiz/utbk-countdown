@@ -1,9 +1,19 @@
-// Swal.fire({
-//    title: 'Error!',
-//    text: 'Do you want to continue',
-//    icon: 'error',
-//    confirmButtonText: 'Cool'
-// })
+const CompatibilityToast = Swal.mixin({
+    toast: true,
+    position: 'top',
+    showConfirmButton: false,
+    timer: 7000,
+    timerProgressBar: true,
+    didOpen: (toast) => {
+        toast.addEventListener('mouseenter', Swal.stopTimer)
+        toast.addEventListener('mouseleave', Swal.resumeTimer)
+    }
+})
+
+CompatibilityToast.fire({
+    icon: 'warning',
+    title: 'This site runs better in desktop/landscape mode.'
+})
 
 document.querySelector(".pomodoro").addEventListener('click', function() {
     Swal.fire({
