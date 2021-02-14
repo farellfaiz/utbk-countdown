@@ -2,7 +2,6 @@
 html {
     display: grid;
     font-family: Montserrat;
-    transition: all 1s;
 }
 
 body {
@@ -10,7 +9,12 @@ body {
     background: #183059;
     height: 100vh;
     overflow: hidden;
-    transition: all 1s;
+    transition: all 0.5s;
+}
+
+a {
+    text-decoration: none;
+    outline: none;
 }
 
 .tengah {
@@ -272,23 +276,26 @@ footer a {
 /* Menu */
 
 .menu {
-    filter: url("../index.html#shadowed-goo");
+    filter: url("../image/menu-filter.svg#shadowed-goo");
 }
 
 .menu-item,
 .menu-open-button {
-    background: #ff4081;
+    background: white;
     border-radius: 100%;
     width: 80px;
     height: 80px;
     margin-left: -40px;
     position: absolute;
     top: 20px;
-    color: white;
+    color: #183059;
     text-align: center;
     line-height: 80px;
     transform: translate3d(0, 0, 0);
     transition: transform ease-out 200ms;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .menu-open {
@@ -298,7 +305,7 @@ footer a {
 .hamburger {
     width: 25px;
     height: 3px;
-    background: white;
+    background: #183059;
     display: block;
     position: absolute;
     top: 50%;
@@ -346,8 +353,8 @@ footer a {
 }
 
 .menu-item:hover {
-    background: white;
-    color: #ff4081;
+    background: #183059;
+    color: white;
 }
 
 .menu-item:nth-child(3) {
