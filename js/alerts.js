@@ -69,6 +69,7 @@ document.querySelector(".learn").addEventListener('click', function() {
 
             '<p><b>Youtube</b>:</p>' +
             '<ul style="margin-top:-15px;">' +
+            '<li>Zenius<a target="_blank" href="https://www.youtube.com/user/ZeniusEduChannel"><span style="margin-left:7px;color:black;text-decoration:none;; font-size:13px;" class="fa fa-external-link"></span><a/></li></li>' +
             '<li>Team Tanpa Les Indonesia<a target="_blank" href="https://www.youtube.com/channel/UCeGu7w5LDZV6Bf4Olz1wVfg"><span style="margin-left:7px;color:black;text-decoration:none;; font-size:13px;" class="fa fa-external-link"></span><a/></li></li>' +
             '<li>Belajar Bersama Pak Luhut<a target="_blank" href="https://www.youtube.com/channel/UCmDRYzK0sh2OSdfWk0FDyQw"><span style="margin-left:7px;color:black;text-decoration:none;; font-size:13px;" class="fa fa-external-link"></span><a/></li></li>' +
             '<li>Privat Al Faiz<a target="_blank" href="https://www.youtube.com/channel/UCAe69wlClVVHexL0l0gdHKQ"><span style="margin-left:7px;color:black;text-decoration:none;; font-size:13px;" class="fa fa-external-link"></span><a/></li></li>' +
