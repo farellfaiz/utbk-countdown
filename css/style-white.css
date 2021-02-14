@@ -14,6 +14,7 @@ body {
 
 a {
     text-decoration: none;
+    outline: none;
 }
 
 .tengah {
@@ -24,7 +25,7 @@ a {
 }
 
 .now {
-    text-align: center;
+    text-align: left;
     margin-top: 2em;
     font-size: 2em;
 }
@@ -36,9 +37,10 @@ a {
 .container {
     position: relative;
     margin: auto;
+    margin-top: 12vh;
     overflow: hidden;
     width: 650px;
-    height: 480px;
+    height: 100vh;
 }
 
 h1 {
@@ -61,6 +63,7 @@ h1 {
 
 .header .date {
     padding-top: 30px;
+    text-align: right;
 }
 
 h1 sup {
@@ -73,6 +76,10 @@ h1 sup {
     text-transform: uppercase;
     font-size: 0.7em;
     letter-spacing: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-around;
 }
 
 .days,
@@ -83,10 +90,12 @@ h1 sup {
     padding: 20px;
     width: 100px;
     border-radius: 5px;
-    cursor: pointer;
     border: 1px solid rgba(72, 94, 144, 0.16);
-    color: #707070;
-    background-color: white;
+    ;
+    cursor: pointer;
+    margin: 5px;
+    color: #183059;
+    background: #fff;
 }
 
 .days:hover,
@@ -113,7 +122,7 @@ footer {
 
 footer p {
     letter-spacing: 3px;
-    color: black;
+    color: #000;
 }
 
 footer a {
