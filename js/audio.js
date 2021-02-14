@@ -1,9 +1,18 @@
-var audioElement = document.getElementById("rain");
+var rainSound = document.getElementById("rain");
+var librarySound = document.getElementById("library")
 
-function play() {
-    if (audioElement.paused) {
-        audioElement.play();
+function rain() {
+    if (rainSound.paused) {
+        rainSound.play();
     } else {
-        audioElement.pause();
+        rainSound.pause();
+    }
+};
+
+function library() {
+    if (librarySound.paused) {
+        librarySound.play();
+    } else {
+        librarySound.pause();
     }
 };
