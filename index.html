@@ -1,0 +1,82 @@
+<html>
+
+<head>
+    <title>
+        UTBK Countdown
+    </title>
+    <link rel="stylesheet" href="css/style-blue.css">
+    <link rel="preload" href="css/style-white.css" as="style">
+    <link rel="icon" href="image/yuhu.ico">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="tengah">
+        <div class="container">
+            <div class="header">
+                <h1 class="now">UTBK <span>Countdown</span></h1>
+                <h1 class="date">12<sup>TH</sup> APRIL 2021</h1>
+            </div>
+            <div id="timer"></div>
+            <nav class="menu">
+                <input type="checkbox" href="#" class="menu-open" name="menu-open" id="menu-open" />
+                <label class="menu-open-button" for="menu-open">
+                  <span class="hamburger hamburger-1"></span>
+                  <span class="hamburger hamburger-2"></span>
+                  <span class="hamburger hamburger-3"></span>
+                </label>
+
+                <a href="#" class="menu-item"> <i class="fa fa-bar-chart"></i> </a>
+                <a href="#" class="menu-item"> <i class="fa fa-plus"></i> </a>
+                <a href="#" class="menu-item"> <i class="fa fa-heart"></i> </a>
+                <a href="#" class="menu-item"> <i class="fa fa-envelope"></i> </a>
+                <a href="#" class="menu-item"> <i class="fa fa-cog"></i> </a>
+
+            </nav>
+
+
+            <!-- filters -->
+            <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+                  <defs>
+                    <filter id="shadowed-goo">
+                        <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="10" />
+                        <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="goo" />
+                        <feGaussianBlur in="goo" stdDeviation="3" result="shadow" />
+                        <feColorMatrix in="shadow" mode="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 1 -0.2" result="shadow" />
+                        <feOffset in="shadow" dx="1" dy="1" result="shadow" />
+                        <feBlend in2="shadow" in="goo" result="goo" />
+                        <feBlend in2="goo" in="SourceGraphic" result="mix" />
+                    </filter>
+                    <filter id="goo">
+                        <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="10" />
+                        <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="goo" />
+                        <feBlend in2="goo" in="SourceGraphic" result="mix" />
+                    </filter>
+                  </defs>
+              </svg>
+        </div>
+    </div>
+
+    <script src="js/countdown.js"></script>
+    <script src="js/animatedbackground.js"></script>
+    <footer>
+        <p>Visit <a href="https://ltmpt.ac.id/"> LTMPT</a>
+            <a href="#" onclick="changeCSS('css/style-blue.css', 0);">STYLE 1</a>
+            <a href="#" onclick="changeCSS('css/style-white.css', 0);">STYLE 2</a>
+    </footer>
+
+    <ul class="bg-bubbles">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+</body>
+
+</html>
