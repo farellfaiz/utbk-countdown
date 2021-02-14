@@ -89,9 +89,10 @@ document.querySelector(".learn").addEventListener('click', function() {
 
             '<p><b>Others</b>:</p>' +
             '<ul style="margin-top:-15px;">' +
-            '<li>acomarcho&apos; Github<a target="_blank" href="https://acomarcho.github.io/"><span style="margin-left:7px;color:black;text-decoration:none;; font-size:13px;" class="fa fa-external-link"></span><a/>' +
+            '<li>acomarcho&apos;s Github<a target="_blank" href="https://acomarcho.github.io/"><span style="margin-left:7px;color:black;text-decoration:none;; font-size:13px;" class="fa fa-external-link"></span><a/>' +
             '<ul><li>Kitab Numerik</li><li>Kuantitatif ala UTBK</li><li>Kuis Kata Baku</li><li>etc</li></li></ul></li>' +
-            '<li>Warga Tiga 2021<a target="_blank" href="https://2021.wargati.ga/"><span style="margin-left:7px;color:black;text-decoration:none;; font-size:13px;" class="fa fa-external-link"></span><a/></li></li></ul>' +
+            '<li>Warga Tiga 2021<a target="_blank" href="https://2021.wargati.ga/"><span style="margin-left:7px;color:black;text-decoration:none;; font-size:13px;" class="fa fa-external-link"></span><a/></li></li>' +
+            '<li>UTBK Countdown&apos;s Repository<a target="_blank" href="https://github.com/farellfaiz/utbk-countdown/"><span style="margin-left:7px;color:black;text-decoration:none;; font-size:13px;" class="fa fa-external-link"></span><a/></li></li></ul>' +
 
             '</div>',
         showCloseButton: true,
