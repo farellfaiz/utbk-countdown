@@ -79,7 +79,12 @@ document.querySelector(".learn").addEventListener('click', function() {
 
             '<p><b>Youtube</b>:</p>' +
             '<ul style="margin-top:-15px;">' +
+            '<li>BIG Course<a target="_blank" href="https://www.youtube.com/channel/UC-a0gsRujUDEdro2k3AGaCg"><span style="margin-left:7px;color:black;text-decoration:none;; font-size:13px;" class="fa fa-external-link"></span><a/></li></li>' +
+            '<li>Pak Wisnu Fisika<a target="_blank" href="https://www.youtube.com/c/PakWisnu/featured"><span style="margin-left:7px;color:black;text-decoration:none;; font-size:13px;" class="fa fa-external-link"></span><a/></li></li>' +
+            '<li>Bimbel Smarrt<a target="_blank" href="https://www.youtube.com/channel/UCf15e27Abruh_4LwjhS_14Q"><span style="margin-left:7px;color:black;text-decoration:none;; font-size:13px;" class="fa fa-external-link"></span><a/></li></li>' +
+            '<li>Pembahasan 100 Soal PK 2020<a target="_blank" href="https://www.youtube.com/playlist?list=PLqJm-ybfL2wfr07WCWX1eaT9D2uzjpFlU"><span style="margin-left:7px;color:black;text-decoration:none;; font-size:13px;" class="fa fa-external-link"></span><a/></li></li>' +
             '<li>Zenius<a target="_blank" href="https://www.youtube.com/user/ZeniusEduChannel"><span style="margin-left:7px;color:black;text-decoration:none;; font-size:13px;" class="fa fa-external-link"></span><a/></li></li>' +
+            '<li>m4th-lab<a target="_blank" href="https://www.youtube.com/channel/UCl67Jeayu8eJVY2y5FuKSUw"><span style="margin-left:7px;color:black;text-decoration:none;; font-size:13px;" class="fa fa-external-link"></span><a/></li></li>' +
             '<li>Team Tanpa Les Indonesia<a target="_blank" href="https://www.youtube.com/channel/UCeGu7w5LDZV6Bf4Olz1wVfg"><span style="margin-left:7px;color:black;text-decoration:none;; font-size:13px;" class="fa fa-external-link"></span><a/></li></li>' +
             '<li>Belajar Bersama Pak Luhut<a target="_blank" href="https://www.youtube.com/channel/UCmDRYzK0sh2OSdfWk0FDyQw"><span style="margin-left:7px;color:black;text-decoration:none;; font-size:13px;" class="fa fa-external-link"></span><a/></li></li>' +
             '<li>Privat Al Faiz<a target="_blank" href="https://www.youtube.com/channel/UCAe69wlClVVHexL0l0gdHKQ"><span style="margin-left:7px;color:black;text-decoration:none;; font-size:13px;" class="fa fa-external-link"></span><a/></li></li>' +
@@ -89,6 +94,8 @@ document.querySelector(".learn").addEventListener('click', function() {
 
             '<p><b>Others</b>:</p>' +
             '<ul style="margin-top:-15px;">' +
+            '<li>m4th-lab.net<a target="_blank" href="https://m4th-lab.net/"><span style="margin-left:7px;color:black;text-decoration:none;; font-size:13px;" class="fa fa-external-link"></span><a/></li></li>' +
+            '<li>Defantri<a target="_blank" href="https://www.defantri.com/"><span style="margin-left:7px;color:black;text-decoration:none;; font-size:13px;" class="fa fa-external-link"></span><a/></li></li>' +
             '<li>acomarcho&apos;s Github<a target="_blank" href="https://acomarcho.github.io/"><span style="margin-left:7px;color:black;text-decoration:none;; font-size:13px;" class="fa fa-external-link"></span><a/>' +
             '<ul><li>Kitab Numerik</li><li>Kuantitatif ala UTBK</li><li>Kuis Kata Baku</li><li>etc</li></li></ul></li>' +
             '<li>Warga Tiga 2021<a target="_blank" href="https://2021.wargati.ga/"><span style="margin-left:7px;color:black;text-decoration:none;; font-size:13px;" class="fa fa-external-link"></span><a/></li></li>' +
