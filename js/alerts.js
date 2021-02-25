@@ -92,12 +92,16 @@ document.querySelector(".learn").addEventListener('click', function() {
             '<li>aco!<a target="_blank" href="https://www.youtube.com/channel/UCnWIF4KcdRkTUDvxDHlvYNg"><span style="margin-left:7px;color:black;text-decoration:none;; font-size:13px;" class="fa fa-external-link"></span><a/></li></li>' +
             '<li>Miracle Sitompul<a target="_blank" href="https://www.youtube.com/channel/UCSVZngs-UH5bZK8NlPo1mBg"><span style="margin-left:7px;color:black;text-decoration:none;; font-size:13px;" class="fa fa-external-link"></span><a/></li></li></ul>' +
 
-            '<p><b>Others</b>:</p>' +
+            '<p><b>Websites & others</b>:</p>' +
             '<ul style="margin-top:-15px;">' +
+            '<li>Wardaya College<a target="_blank" href="https://www.wardayacollege.com/"><span style="margin-left:7px;color:black;text-decoration:none;; font-size:13px;" class="fa fa-external-link"></span><a/></li></li>' +
+            '<li>Bimbingan Alumni UI<a target="_blank" href="https://www.bimbinganalumniui.com/edukasi"><span style="margin-left:7px;color:black;text-decoration:none;; font-size:13px;" class="fa fa-external-link"></span><a/></li></li>' +
             '<li>m4th-lab.net<a target="_blank" href="https://m4th-lab.net/"><span style="margin-left:7px;color:black;text-decoration:none;; font-size:13px;" class="fa fa-external-link"></span><a/></li></li>' +
             '<li>Defantri<a target="_blank" href="https://www.defantri.com/"><span style="margin-left:7px;color:black;text-decoration:none;; font-size:13px;" class="fa fa-external-link"></span><a/></li></li>' +
             '<li>acomarcho&apos;s Github<a target="_blank" href="https://acomarcho.github.io/"><span style="margin-left:7px;color:black;text-decoration:none;; font-size:13px;" class="fa fa-external-link"></span><a/>' +
             '<ul><li>Kitab Numerik</li><li>Kuantitatif ala UTBK</li><li>Kuis Kata Baku</li><li>etc</li></li></ul></li>' +
+            '<li>English Club<a target="_blank" href="https://www.englishclub.com/"><span style="margin-left:7px;color:black;text-decoration:none;; font-size:13px;" class="fa fa-external-link"></span><a/></li></li>' +
+            '<li>English 4U<a target="_blank" href="https://www.english-4u.de/index.htm"><span style="margin-left:7px;color:black;text-decoration:none;; font-size:13px;" class="fa fa-external-link"></span><a/></li></li>' +
             '<li>Warga Tiga 2021<a target="_blank" href="https://2021.wargati.ga/"><span style="margin-left:7px;color:black;text-decoration:none;; font-size:13px;" class="fa fa-external-link"></span><a/></li></li>' +
             '<li>UTBK Countdown&apos;s Repository<a target="_blank" href="https://github.com/farellfaiz/utbk-countdown/"><span style="margin-left:7px;color:black;text-decoration:none;; font-size:13px;" class="fa fa-external-link"></span><a/></li></li></ul>' +
 
