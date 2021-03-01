@@ -36,10 +36,6 @@ let timer = setInterval(function() {
 </div>";
 
 }, 1000);
-var date = new Date().toISOString().split('T')[0];
-if (date == "2021-03-01") {
-    window.location.href = "https://google.com";
-}
 
 function changeCSS(cssFile, cssLinkIndex) {
 
@@ -52,3 +48,9 @@ function changeCSS(cssFile, cssLinkIndex) {
 
     document.getElementsByTagName("head").item(0).replaceChild(newlink, oldlink);
 }
+
+// REDIRECT BASED ON DATE
+// var date = new Date().toISOString().split('T')[0];
+// if (date == "2021-03-01") {
+//    window.location.href = "https://google.com";
+// }
