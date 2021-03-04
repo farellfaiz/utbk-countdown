@@ -69,6 +69,13 @@ document.querySelector(".learn").addEventListener('click', function() {
 
             '<div style="line-height:30px; background-color: #363636; color: white; padding: 6px 10px; border-radius: 3px; font-size:14px; text-align:center;"><a target="_blank" href="mailto:farellfaiz@wargati.ga" style="color: white;"><b>Contact me</b></a> for suggestions or to add yours.</div>' +
 
+            '<p><b>Tools & Guides</b>:</p>' +
+            '<ul style="margin-top:-15px;">' +
+            '<li><div style="display:flex; align-items:center; justify-content:space-between;">Learning Roadmap/Walktrough<div><a target="_blank" href="http://bit.ly/Panduan-UTBK"><span style="margin-left:7px;color:black;text-decoration:none;; font-size:13px;" class="fa fa-external-link"></span><a/></div></div></li>' +
+            '<li><div style="display:flex; align-items:center; justify-content:space-between;">Learning Tracker (Saintek)<div><a target="_blank" href="https://docs.google.com/spreadsheets/d/18ndA-BwX6cmSHLkm3PZnJh4Vbx9YamyydeyRcxu_55w/copy"><span style="margin-left:7px;color:black;text-decoration:none;; font-size:13px;" class="fa fa-external-link"></span><a/></div></div></li>' +
+            '<li><div style="display:flex; align-items:center; justify-content:space-between;">Learning Tracker (Soshum)<div><a target="_blank" href="https://docs.google.com/spreadsheets/d/17f6PvEWU4wwQ6knlRtNnyBJ_Cx0eM6G5wmJS2wbGl8M/copy"><span style="margin-left:7px;color:black;text-decoration:none;; font-size:13px;" class="fa fa-external-link"></span><a/></div></div></li>' +
+            '</ul>' +
+
             '<p><b>Try Out</b>:</p>' +
             '<ul style="margin-top:-15px;margin-bottom:2px;width:90%">' +
             '<li><div style="display:flex; align-items:center; justify-content:space-between;">Eduka <div><p style="margin:0;border: 1px #363636 solid; padding:2px 8px; background-color:#363636; pointer: default; margin-left:3px; color:#fff; display:inline-block; font-size:8px; border-radius: 2px;font-style:montserrat;font-weight:600;">Free*</p> <a target="_blank" href="https://ptn.edukasystem.com/"><span style="margin-left:7px;color:black;text-decoration:none;;color:black;text-decoration:none; font-size:13px;" class="fa fa-external-link"></span><a/></div></div></li>' +
@@ -104,6 +111,7 @@ document.querySelector(".learn").addEventListener('click', function() {
             '<li><div style="display:flex; align-items:center; justify-content:space-between;">Pak Franzz<div><a target="_blank" href="https://www.youtube.com/channel/UCIzs_mAx7jXvNVjBaPeqEAw"><span style="margin-left:7px;color:black;text-decoration:none;; font-size:13px;" class="fa fa-external-link"></span><a/></div></div></li>' +
             '<li><div style="display:flex; align-items:center; justify-content:space-between;">aco!<div><a target="_blank" href="https://www.youtube.com/channel/UCnWIF4KcdRkTUDvxDHlvYNg"><span style="margin-left:7px;color:black;text-decoration:none;; font-size:13px;" class="fa fa-external-link"></span><a/></div></div></li>' +
             '<li><div style="display:flex; align-items:center; justify-content:space-between;">Miracle Sitompul<div><a target="_blank" href="https://www.youtube.com/channel/UCSVZngs-UH5bZK8NlPo1mBg"><span style="margin-left:7px;color:black;text-decoration:none;; font-size:13px;" class="fa fa-external-link"></span><a/></li></div></div></ul>' +
+            '<li><div style="display:flex; align-items:center; justify-content:space-between;">C.H.E Channel (Soshum)<div><a target="_blank" href="https://www.youtube.com/c/PencariIlmu/featured"><span style="margin-left:7px;color:black;text-decoration:none;; font-size:13px;" class="fa fa-external-link"></span><a/></li></div></div></ul>' +
             '</div>' +
 
             '<div style="text-align:left;>"' +
