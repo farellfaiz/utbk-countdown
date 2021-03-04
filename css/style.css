@@ -1,4 +1,26 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900");
+:root {
+    /* Main */
+    --bgbody: #183059;
+    --h1: #FFFFFF;
+    --timer: #F6F4F3;
+    --timeborder: 1px solid rgba(72, 94, 144, 0);
+    --timecolor: #183059;
+    --timebg: #FFFFFF;
+    --timehover: #FFFFFF;
+    --numbers: #183059;
+    --footertext: #FFFFFF;
+    --footerlink: #F6F4F3;
+    /*Bubbles*/
+    --bubble1: rgba(255, 255, 255, 0.15);
+    --bubble2: rgba(255, 255, 255, 0.25);
+    --bubble3: rgba(255, 255, 255, 0.2);
+    --bubble4: rgba(255, 255, 255, 0.3);
+    /* Menu */
+    --menuprimary: #FFFFFF;
+    --menusecondary: #183059;
+}
+
 html {
     display: grid;
     font-family: Montserrat;
@@ -6,7 +28,7 @@ html {
 
 body {
     display: grid;
-    background: #fff;
+    background: var(--bgbody);
     height: 100vh;
     overflow: hidden;
     transition: all 0.5s;
@@ -18,10 +40,11 @@ a {
 }
 
 .tengah {
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    align-items: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
 
 .now {
@@ -47,7 +70,7 @@ h1 {
     text-align: center;
     margin-top: 2em;
     font-size: 1em;
-    color: #707070;
+    color: var(--h1);
 }
 
 .header {
@@ -71,7 +94,7 @@ h1 sup {
 }
 
 #timer {
-    color: #f6f4f3;
+    color: var(--timer);
     text-align: center;
     text-transform: uppercase;
     font-size: 0.7em;
@@ -90,24 +113,23 @@ h1 sup {
     padding: 20px;
     width: 100px;
     border-radius: 5px;
-    border: 1px solid rgba(72, 94, 144, 0.16);
-    ;
+    border: var(--timeborder);
     cursor: pointer;
     margin: 5px;
-    color: #183059;
-    background: #fff;
+    background: var(--timebg);
+    color: var(--timecolor);
 }
 
 .days:hover,
 .hours:hover,
 .minutes:hover,
 .seconds:hover {
-    background-color: #E2EEFF;
+    background-color: var(--timehover);
 }
 
 .numbers {
     font-family: "Montserrat", sans-serif;
-    color: #707070;
+    color: var(--numbers);
     font-size: 4em;
 }
 
@@ -122,11 +144,11 @@ footer {
 
 footer p {
     letter-spacing: 3px;
-    color: #000;
+    color: var(--footertext);
 }
 
 footer a {
-    color: skyblue;
+    color: var(--footerlink);
     transition: all 1s;
     text-decoration: none;
     font-weight: bold;
@@ -151,7 +173,7 @@ footer a {
     width: 40px;
     height: 40px;
     border-radius: 5%;
-    background-color: rgba(34, 122, 255, 0.15);
+    background-color: var(--bubble1);
     bottom: -160px;
     -webkit-animation: square 30s infinite;
     animation: square 30s infinite;
@@ -185,7 +207,7 @@ footer a {
     height: 60px;
     -webkit-animation-duration: 22s;
     animation-duration: 22s;
-    background-color: rgba(34, 122, 255, 0.15);
+    background-color: var(--bubble2);
 }
 
 .bg-bubbles li:nth-child(5) {
@@ -198,7 +220,7 @@ footer a {
     height: 120px;
     -webkit-animation-delay: 3s;
     animation-delay: 3s;
-    background-color: rgba(34, 122, 255, 0.15);
+    background-color: var(--bubble3);
 }
 
 .bg-bubbles li:nth-child(7) {
@@ -227,7 +249,7 @@ footer a {
     animation-delay: 2s;
     -webkit-animation-duration: 40s;
     animation-duration: 40s;
-    background-color: rgba(34, 122, 255, 0.15);
+    background-color: var(--bubble4);
 }
 
 .bg-bubbles li:nth-child(10) {
@@ -269,14 +291,14 @@ footer a {
 
 .menu-item,
 .menu-open-button {
-    background: #707070;
+    background: var(--menuprimary);
     border-radius: 100%;
     width: 80px;
     height: 80px;
     margin-left: -40px;
     position: absolute;
     top: 20px;
-    color: #fff;
+    color: var(--menusecondary);
     text-align: center;
     line-height: 80px;
     transform: translate3d(0, 0, 0);
@@ -293,7 +315,7 @@ footer a {
 .hamburger {
     width: 25px;
     height: 3px;
-    background: #fff;
+    background: var(--menusecondary);
     display: block;
     position: absolute;
     top: 50%;
@@ -341,8 +363,8 @@ footer a {
 }
 
 .menu-item:hover {
-    background: #707070;
-    color: #fff;
+    background: var(--menusecondary);
+    color: var(--menuprimary);
 }
 
 .menu-item:nth-child(3) {
