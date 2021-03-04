@@ -24,22 +24,27 @@
     <meta property="twitter:description" content="Your simple UTBK dashboard. Learning source, pomodoro timer, and ambience sounds that help you to study and focus.">
     <meta property="twitter:image" content="https://utbk.wargati.ga/images/social-image.png">
 
-    <link rel="stylesheet" href="css/style-blue.css">
+    <!-- Links -->
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/rain.css">
     <link rel='stylesheet' href='sweetalert2.min.css'>
     <link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' />
-    <link rel="preload" href="css/style-white.css" as="style">
     <link rel="icon" href="image/yuhu.ico">
 </head>
 
 <body>
     <div class="tengah">
         <div class="container">
+
+            <!-- Countdown Start -->
             <div class="header">
                 <h1 class="now">UTBK <span>Countdown</span></h1>
                 <h1 class="date">12 APRIL 2021</h1>
             </div>
             <div id="timer"></div>
+            <!-- Countdown End -->
+
+            <!-- Menu Start -->
             <nav class="menu">
                 <input type="checkbox" href="#" class="menu-open" name="menu-open" id="menu-open" />
                 <label class="menu-open-button" for="menu-open">
@@ -53,19 +58,23 @@
                 <a href="#" class="menu-item pomodoro"> <i class="fa fa-clock-o"></i> </a>
                 <a href="#" class="menu-item learn"> <i class="fa fa-book"></i> </a>
                 <a href="#" class="menu-item info"> <i class="fa fa-info"></i> </a>
-
             </nav>
+            <!-- Menu End -->
+
         </div>
     </div>
 
+    <!-- Footer & Mode Toggles Start -->
     <footer>
         <p>
             Mode:
-            <a href="#" onclick="changeCSS('css/style-blue.css', 0);">Dark</a>
-            <a href="#" onclick="changeCSS('css/style-white.css', 0);">Light</a> • Visit <a href="https://ltmpt.ac.id/"> LTMPT</a> • Back to <a href="https://wargati.ga">Main Page</a>
+            <a href="#" onclick="dark();">Dark</a>
+            <a href="#" onclick="light();">Light</a> • Visit <a href="https://ltmpt.ac.id/"> LTMPT</a> • Back to <a href="https://wargati.ga">Main Page</a>
         </p>
     </footer>
+    <!-- Footer & Mode Toggles End -->
 
+    <!-- Bubbles Start -->
     <ul class="bg-bubbles">
         <li></li>
         <li></li>
@@ -78,6 +87,9 @@
         <li></li>
         <li></li>
     </ul>
+    <!-- Bubbles End -->
+
+    <!-- Kuchiyose no Jutsu -->
     <audio id="library" src="audio/library.mp3" loop></audio>
     <audio id="rain" src="audio/rain.m4a" loop></audio>
     <script src='https://cdn.jsdelivr.net/npm/sweetalert2@10'></script>
@@ -87,6 +99,7 @@
     <script src="js/alerts.js"></script>
     <script src="js/audio.js"></script>
     <script src="js/countdown.js"></script>
+    <script src="js/mode.js"></script>
 </body>
 
 </html>
