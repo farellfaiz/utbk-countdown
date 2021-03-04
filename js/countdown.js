@@ -37,18 +37,6 @@ let timer = setInterval(function() {
 
 }, 1000);
 
-function changeCSS(cssFile, cssLinkIndex) {
-
-    var oldlink = document.getElementsByTagName("link").item(cssLinkIndex);
-
-    var newlink = document.createElement("link");
-    newlink.setAttribute("rel", "stylesheet");
-    newlink.setAttribute("type", "text/css");
-    newlink.setAttribute("href", cssFile);
-
-    document.getElementsByTagName("head").item(0).replaceChild(newlink, oldlink);
-}
-
 // REDIRECT BASED ON DATE
 // var date = new Date().toISOString().split('T')[0];
 // if (date == "2021-03-01") {
