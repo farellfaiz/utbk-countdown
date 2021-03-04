@@ -12,7 +12,7 @@ const CompatibilityToast = Swal.mixin({
 
 CompatibilityToast.fire({
     icon: 'warning',
-    title: 'This site designed for desktop (PC/Laptop).'
+    title: 'This site is designed for desktop (PC/Laptop).'
 })
 
 document.querySelector(".pomodoro").addEventListener('click', function() {
