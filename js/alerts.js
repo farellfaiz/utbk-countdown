@@ -1,19 +1,47 @@
-const CompatibilityToast = Swal.mixin({
-    toast: true,
-    position: 'top',
-    showConfirmButton: false,
-    timer: 7000,
-    timerProgressBar: true,
-    didOpen: (toast) => {
-        toast.addEventListener('mouseenter', Swal.stopTimer)
-        toast.addEventListener('mouseleave', Swal.resumeTimer)
+Swal.fire({
+    width: 550,
+    title: 'The war has begun',
+    html: 'Terima kasih telah setia mengunjungi situs ini :)<br>' +
+        'Selamat/semangat for SBMPTN annoucement?',
+    text: "Terima kasih telah setia mengunjungi situs ini. All the best for you :)",
+    icon: 'warning',
+    showCancelButton: false,
+    showDenyButton: true,
+    denyButtonText: 'Semangat',
+    confirmButtonColor: '#3085d6',
+    confirmButtonText: 'Selamat!',
+}).then((result) => {
+    if (result.isConfirmed) {
+        Swal.fire(
+            'Aamiin!',
+            'All the best for you guys. <br>Jangan lupa doa dan tawakkal.',
+            'success'
+        )
+    } else if (result.isDenied) {
+        Swal.fire(
+            'Semangat!',
+            'Harus yakin yaa. Kalau pun memang iya, UTBK bukan satu-satunya jalan kok!<br><br> Masih banyak jalur dan tempat lain yang mengantarkan kalian menuju kesuksesan.<br><br> Hard work will pay off soon, it won&apos;t betray you :)',
+            'error'
+        )
     }
 })
 
-CompatibilityToast.fire({
-    icon: 'warning',
-    title: 'This site is designed for desktop (PC/Laptop).'
-})
+//const CompatibilityToast = Swal.mixin({
+//   toast: true,
+//    position: 'top',
+//    showConfirmButton: false,
+//    timer: 7000,
+//    timerProgressBar: true,
+//    didOpen: (toast) => {
+//        toast.addEventListener('mouseenter', Swal.stopTimer)
+//        toast.addEventListener('mouseleave', Swal.resumeTimer)
+//    }
+//})
+
+//CompatibilityToast.fire({
+//    icon: 'warning',
+//    title: 'This site is designed for desktop (PC/Laptop).'
+//})
 
 document.querySelector(".pomodoro").addEventListener('click', function() {
     Swal.fire({
