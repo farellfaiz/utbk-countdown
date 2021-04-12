@@ -1,6 +1,6 @@
 const year = new Date().getFullYear();
 
-const secondMarch = new Date(year, 3, 12).getTime();
+const secondMarch = new Date(year, 3, 2).getTime();
 const month = new Date().getMonth();
 
 // countdown
@@ -26,13 +26,13 @@ let timer = setInterval(function() {
     // display
     document.getElementById("timer").innerHTML =
         "<div class=\"days\"> \
-  <div class=\"numbers\">" + days + "</div>days</div> \
+  <div class=\"numbers\">" + "G" + "</div>good</div> \
 <div class=\"hours\"> \
-  <div class=\"numbers\">" + hours + "</div>hours</div> \
+  <div class=\"numbers\">" + "L" + "</div>luck</div> \
 <div class=\"minutes\"> \
-  <div class=\"numbers\">" + minutes + "</div>minutes</div> \
+  <div class=\"numbers\">" + "H" + "</div>have</div> \
 <div class=\"seconds\"> \
-  <div class=\"numbers\">" + seconds + "</div>seconds</div> \
+  <div class=\"numbers\">" + "F" + "</div>fun</div> \
 </div>";
 
 }, 1000);
