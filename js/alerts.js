@@ -3,7 +3,7 @@ Swal.fire({
     title: 'The war has begun',
     html: 'Terima kasih telah setia mengunjungi situs ini :)<br>' +
         'Selamat/semangat for SBMPTN annoucement?',
-    text: "Terima kasih telah setia mengunjungi situs ini. All the best for you :)",
+    footer: '<i>This site is designed for desktop (PC/Laptop).</i>',
     icon: 'warning',
     showCancelButton: false,
     showDenyButton: true,
