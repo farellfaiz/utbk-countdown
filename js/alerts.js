@@ -1,20 +1,20 @@
 Swal.fire({
     width: 550,
-    title: 'The war has begun',
-    html: 'Terima kasih telah setia mengunjungi situs ini :)<br>' +
-        'Selamat/semangat for SBMPTN annoucement?',
-    footer: '<i>This site is designed for desktop (PC/Laptop).</i>',
+    title: 'Welcome Back!',
+    html: 'Welcome to UTBK Countdown V1<br><br>' +
+        'V2 is being developed with additional feature & content, UI update, better device compatibility, and many more. Stay tuned!',
+    footer: '<i>This site is designed only for desktop (PC/Laptop).</i>',
     icon: 'warning',
     showCancelButton: false,
-    showDenyButton: true,
+    showDenyButton: false,
     denyButtonText: 'Semangat',
     confirmButtonColor: '#3085d6',
-    confirmButtonText: 'Selamat!',
+    confirmButtonText: 'Enter Dashboard',
 }).then((result) => {
     if (result.isConfirmed) {
         Swal.fire(
-            'Aamiin!',
-            'All the best for you guys. <br>Jangan lupa doa dan tawakkal.',
+            'Access Accepted',
+            'All the best for you guys. <br>Happy Learning!',
             'success'
         )
     } else if (result.isDenied) {
